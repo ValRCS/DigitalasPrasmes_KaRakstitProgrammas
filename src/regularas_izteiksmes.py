@@ -35,3 +35,11 @@ print("Teksts ar zvaigznītēm:", text_with_stars)
 parts = re.split(r'[ ,]+', text)
 print("Teksta daļas:", parts)
 
+# Kur skatītites tālāk? 
+# https://docs.python.org/3/library/re.html
+# Grāmatas par regulārajām izteiksmēm:
+# "Mastering Regular Expressions" by Jeffrey E.F. Friedl
+# "Regular Expressions Cookbook" by Jan Goyvaerts and Steven Levithan
+
+# Tīmekļa lapas testēšanai:
+# https://regex101.com/
