@@ -12,6 +12,7 @@ json_text = """
 """
 
 data = json.loads(json_text)
+# tā kā mums ir data vārdnīca, mēs varam izdrukāt katru atslēgu un tās vērtību, kā arī to datu tipu, lai redzētu, kā JSON datu tipi tiek konvertēti uz Python datu tipiem
 
 for key, value in data.items():
     print(key, "→", type(value))

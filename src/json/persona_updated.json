@@ -1,0 +1,12 @@
+{
+    "name": "Jānis",
+    "age": 26,
+    "is_student": true,
+    "courses": [
+        "Python",
+        "AI",
+        "groziņu pīšana",
+        "Algorithms",
+        "Data Science"
+    ]
+}

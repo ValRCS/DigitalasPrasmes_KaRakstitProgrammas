@@ -1,5 +1,7 @@
 import json
 
+# izveidojam json formatētu string
+# ievērojam trīs pēdiņas, lai varētu iekļaut vairākrindu tekstu, un JSON formātā tiek izmantoti dubultie pēdiņi ap atslēgām un vērtībām
 json_text = """
 {
     "name": "Anna",
@@ -8,6 +10,7 @@ json_text = """
 }
 """
 
+# mēs pārvērtīsm JSON tekstu atpakaļ Python objektā, izmantojot json.loads, kas konvertē JSON datus no teksta formāta uz Python datu struktūru
 data = json.loads(json_text)
 
 print(data)
