@@ -125,3 +125,8 @@ python3 ./udp_client.py
 
 ### Windows ugunsmūris
 - Pirmajā reizē Windows var pajautāt atļauju Python piekļuvei tīklam — atļauj lokālajā tīklā (Private networks), ja izmanto `127.0.0.1` demo.
+
+## Papildu resursi
+
+- [Python socket dokumentācija](https://docs.python.org/3/library/socket.html)
+- [Beejs Guide to Networking with Python](https://beej.us/guide/bgnet0/)
