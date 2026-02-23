@@ -6,6 +6,7 @@ import requests
 
 def main() -> None:
     url = "https://example.com"
+
     response = requests.get(url, timeout=15)
 
     if response.status_code == 200:
