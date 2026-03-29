@@ -1,4 +1,5 @@
 # pārbaudīsim pandas versiju
+# pandas mājas lapa: https://pandas.pydata.org/ - daudz noderīgas informācijas un dokumentācija
 import pandas as pd # importējam pandas bibliotēku ar saīsinājumu pd
 print("Pandas versija:", pd.__version__)
 
